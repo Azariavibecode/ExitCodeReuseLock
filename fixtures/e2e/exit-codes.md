@@ -1,5 +1,5 @@
-# Acme CLI exit codes
+# Acme CLI exit status reference
 
 ## EXIT CODE 7: Authentication rejected
 
-The command exits with code 7 when the remote service rejects the supplied credentials. The operator must replace or refresh the credential before running the command again. Retrying the identical credential is not recommended because the condition is persistent until credentials change.
+Status 7 is returned when credentials are refused by the remote service. Refresh or replace the credential before another attempt. Repeating the request with the same credential will not resolve this persistent condition.
