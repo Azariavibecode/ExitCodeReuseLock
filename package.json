@@ -1,0 +1,9 @@
+{
+  "name": "exit-code-reuse-lock",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Contract-only GenLayer registry for verifiable CLI exit-code compatibility",
+  "scripts": {
+    "test": "python -m pytest -q"
+  }
+}
