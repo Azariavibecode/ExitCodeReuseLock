@@ -61,5 +61,7 @@ python -m pytest -q
 
 Target runtime: GenLayer `0.2.16`. No frontend is included.
 
+Live StudioNet contract: [`0xe4A2325AFBb21C7159eB63421640D07Cec71AF10`](https://explorer-studio.genlayer.com/address/0xe4A2325AFBb21C7159eB63421640D07Cec71AF10). The two-auxiliary-wallet happy, conflict, disclosed-break, poisoned-source, stale-parent and replay run is recorded in [StudioNet verification](verification/studionet-verification.md).
+
 See [architecture](docs/ARCHITECTURE.md), [threat model](docs/THREAT_MODEL.md), [registered test sources](verification/source-registry.md) and [local verification](verification/local-verification.md).
 
